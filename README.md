@@ -55,7 +55,7 @@ add_time('11:59 PM', '24:05')
 add_time('8:16 PM', '466:02')
 # Returns: '6:18 AM (20 days later)'
 
-# add_time('3:30 PM', '2:12', 'Monday')
+add_time('3:30 PM', '2:12', 'Monday')
 # Returns: '5:42 PM, Monday'
 
 add_time('2:59 AM', '24:00', 'saturDay')
