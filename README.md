@@ -1,7 +1,5 @@
-# Scientific Computing with Python: Build a Time Calculator (fCC required project)
-
-    Scientific Computing with Python (Beta)
-    Build a Time Calculator Project
+# Scientific Computing with Python: Build a Time Calculator
+### This is a solution to the Project challenge from the freeCodeCamp's 'The Scientific Computing with Python (Beta) curriculum' which is purposed to equip programmers with the skills to analyze and manipulate data using Python, a powerful and versatile programming language and to practice key concepts like data structures, algorithms, Object Oriented Programming, and how to perform complex calculations using a variety of tools.
 
 Build a Time Calculator Project
 
