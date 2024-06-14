@@ -41,29 +41,29 @@ add_time('6:30 PM', '205:12')
 # Returns: 7:42 AM (9 days later)
 
 add_time('3:30 PM', '2:12')
-# returns '5:42 PM'
+# Returns: '5:42 PM'
 
 add_time('11:55 AM', '3:12')
-# returns '3:07 PM'
+# Returns: '3:07 PM'
 
 add_time('2:59 AM', '24:00')
-# returns '2:59 AM (next day)'
+# Returns: '2:59 AM (next day)'
 
 add_time('11:59 PM', '24:05')
-# returns '12:04 AM (2 days later)'
+# Returns: '12:04 AM (2 days later)'
 
 add_time('8:16 PM', '466:02')
-# returns '6:18 AM (20 days later)'
+# Returns: '6:18 AM (20 days later)'
 
 # add_time('3:30 PM', '2:12', 'Monday')
-# returns '5:42 PM, Monday'
+# Returns: '5:42 PM, Monday'
 
 add_time('2:59 AM', '24:00', 'saturDay')
-# returns '2:59 AM, Sunday (next day)'
+# Returns: '2:59 AM, Sunday (next day)'
 
 add_time('11:59 PM', '24:05', 'Wednesday')
-# returns '12:04 AM, Friday (2 days later)'
+# Returns: '12:04 AM, Friday (2 days later)'
 
 add_time('8:16 PM', '466:02', 'tuesday')
-# returns '6:18 AM, Monday (20 days later)'
+# Returns: '6:18 AM, Monday (20 days later)'
 ```
