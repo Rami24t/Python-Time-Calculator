@@ -1,6 +1,6 @@
 # Scientific Computing with Python: Build a Time Calculator Project
 
-### [This](https://github.com/Rami24t/Python-Time-Calculator/blob/main/time_calculator_project.py) is [my solution](https://github.com/Rami24t/Python-Time-Calculator/blob/main/time_calculator_project.py) to the following Build a Time Calculator Project
+## [This](https://github.com/Rami24t/Python-Time-Calculator/blob/main/time_calculator_project.py) is [my solution](https://github.com/Rami24t/Python-Time-Calculator/blob/main/time_calculator_project.py) to the following Build a Time Calculator Project
 
 #### Build a Time Calculator Project
 #### One of the required certification projects from freeCodeCamp's 'The Scientific Computing with Python (Beta)' curriculum which aims to equip programmers with the skills to analyze and manipulate data using Python, a powerful and versatile programming language and to practice key concepts like scientific computing, data structures, algorithms, Object Oriented Programming, and to perform complex calculations using a variety of tools.
@@ -20,7 +20,7 @@ If the function is given the optional starting day of the week parameter, then t
 
 Do not import any Python libraries. Assume that the start times are valid times. The minutes in the duration time will be a whole number less than 60, but the hour can be any whole number.
 
-### The following are some examples of different cases that [my solution code](https://github.com/Rami24t/Python-Time-Calculator/blob/main/time_calculator_project.py) handles.
+## The following are some examples of different cases that [my solution code](https://github.com/Rami24t/Python-Time-Calculator/blob/main/time_calculator_project.py) handles.
 ```
 add_time('3:00 PM', '3:10')
 # Returns: 6:10 PM
