@@ -1,5 +1,5 @@
 # Scientific Computing with Python: Build a Time Calculator
-### This is my solution to the following challenge/project from the freeCodeCamp's 'The Scientific Computing with Python (Beta) curriculum' which is purposed to equip programmers with the skills to analyze and manipulate data using Python, a powerful and versatile programming language and to practice key concepts like scientific computing, data structures, algorithms, Object Oriented Programming, and to perform complex calculations using a variety of tools.
+### This .py file is my solution to the following challenge/project from the freeCodeCamp's 'The Scientific Computing with Python (Beta)' curriculum which is purposed to equip programmers with the skills to analyze and manipulate data using Python, a powerful and versatile programming language and to practice key concepts like scientific computing, data structures, algorithms, Object Oriented Programming, and to perform complex calculations using a variety of tools.
 
 Build a Time Calculator Project
 
@@ -15,8 +15,9 @@ If the result will be the next day, it should show (next day) after the time. If
 
 If the function is given the optional starting day of the week parameter, then the output should display the day of the week of the result. The day of the week in the output should appear after the time and before the number of days later.
 
-Below are some examples of different cases the function should handle. Pay close attention to the spacing and punctuation of the results.
-Example Code
+Do not import any Python libraries. Assume that the start times are valid times. The minutes in the duration time will be a whole number less than 60, but the hour can be any whole number.
+
+### The following are some examples of different cases that my solution code handles.
 ```
 add_time('3:00 PM', '3:10')
 # Returns: 6:10 PM
@@ -35,5 +36,31 @@ add_time('11:43 PM', '24:20', 'tueSday')
 
 add_time('6:30 PM', '205:12')
 # Returns: 7:42 AM (9 days later)
+
+add_time('3:30 PM', '2:12')
+# returns '5:42 PM'
+
+add_time('11:55 AM', '3:12')
+# returns '3:07 PM'
+
+add_time('2:59 AM', '24:00')
+# returns '2:59 AM (next day)'
+
+add_time('11:59 PM', '24:05')
+# returns '12:04 AM (2 days later)'
+
+add_time('8:16 PM', '466:02')
+# returns '6:18 AM (20 days later)'
+
+# add_time('3:30 PM', '2:12', 'Monday')
+# returns '5:42 PM, Monday'
+
+add_time('2:59 AM', '24:00', 'saturDay')
+# returns '2:59 AM, Sunday (next day)'
+
+add_time('11:59 PM', '24:05', 'Wednesday')
+# returns '12:04 AM, Friday (2 days later)'
+
+add_time('8:16 PM', '466:02', 'tuesday')
+# returns '6:18 AM, Monday (20 days later)'
 ```
-Do not import any Python libraries. Assume that the start times are valid times. The minutes in the duration time will be a whole number less than 60, but the hour can be any whole number.
