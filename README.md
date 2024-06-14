@@ -1,4 +1,4 @@
-# fCC: Scientific Computing with Python: Build a Time Calculator Project
+# Scientific Computing with Python: Build a Time Calculator (fCC required project)
 
     Scientific Computing with Python (Beta)
     Build a Time Calculator Project
