@@ -61,8 +61,7 @@ def add_time(start="12:00 AM", duration='00:30', day=''):
     new_time = f"{hours_sum}:{padTime(minutes_sum)}"
     
     output = f"{new_time} {'PM' if pm_new else 'AM'}{', '+new_day if day!='' else ''}{'' if numberOfDaysLater==0 else ' (next day)' if numberOfDaysLater == 1 else ' ('+str(numberOfDaysLater)+' days later)'}"
-
-#    print('-',start,',', duration,',', day, ':\n', output)
+    #print('-',start,',', duration,',', day, ':\n', output)
 
     return output
 
