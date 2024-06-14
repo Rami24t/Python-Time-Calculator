@@ -76,4 +76,5 @@ if __name__ == '__main__':
     # 12:04 AM, Friday (2 days later)
     # 6:18 AM, Monday (20 days later)
 
-# Rami Al-Saadi 2024
+# My Python solution to the fCC Scientific Computing with Python (Beta) Build a Time Calculator project challenge, 
+# Written by me Rami Al-Saadi in the 13th and 14th of June 2024
