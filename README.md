@@ -1,8 +1,10 @@
 # Scientific Computing with Python: Build a Time Calculator Project
-### [This](https://github.com/Rami24t/Python-Time-Calculator/blob/main/time_calculator_project.py) is [my solution to the following](https://github.com/Rami24t/Python-Time-Calculator/blob/main/time_calculator_project.py) Build a Time Calculator Project 
+
+### [This](https://github.com/Rami24t/Python-Time-Calculator/blob/main/time_calculator_project.py) is [my solution to the following](https://github.com/Rami24t/Python-Time-Calculator/blob/main/time_calculator_project.py) Build a Time Calculator Project
+
+#### Build a Time Calculator Project
 #### One of the required certification projects from freeCodeCamp's 'The Scientific Computing with Python (Beta)' curriculum which aims to equip programmers with the skills to analyze and manipulate data using Python, a powerful and versatile programming language and to practice key concepts like scientific computing, data structures, algorithms, Object Oriented Programming, and to perform complex calculations using a variety of tools.
 
-Build a Time Calculator Project
 
 Write a function named add_time that takes in two required parameters and one optional parameter:
 
